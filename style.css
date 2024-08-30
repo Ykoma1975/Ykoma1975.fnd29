@@ -1,0 +1,103 @@
+.dogbox{
+  background-color: white;
+  display: flex;
+  border: black 3px solid;
+  padding: 10px;
+  margin: 0 200px 10px 200px;
+}
+
+.dogboxjpg {
+  position:relative;
+  overflow:hidden;
+  width: 400px;
+  height: 400px;
+  margin: 0 0 0 40px;
+}
+.dogboxjpg img{
+  width: 100%;
+  cursor: pointer;
+  position:absolute;
+}
+.dogboxjpg img:last-child{
+  top: 100%;
+  transition: 0.3s;
+}
+.dogboxjpg:hover img:last-child{
+  top:0;
+}
+
+.dogbutton{
+	width: 150px;
+	height: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+	margin: 35px 0 0 20px;
+}
+
+
+
+.catbox{
+  background-color: white;
+  display: flex;
+  border: black 3px solid;
+  padding: 10px;
+  margin: 0 200px 10px 200px;
+}
+
+.catboxjpg {
+  position:relative;
+  overflow:hidden;
+  width: 400px;
+  height: 400px;
+  margin: 0 0 0 65px;
+}
+.catboxjpg img{
+  width: 100%;
+  cursor: pointer;
+  position:absolute;
+}
+.catboxjpg img:last-child{
+  top: 100%;
+  transition: 0.3s;
+}
+.catboxjpg:hover img:last-child{
+  top:0;
+}
+
+#box1{
+  width: 150px;
+  height: 25px;
+  border: black 1px solid;
+}
+
+
+
+
+#dogSquare{
+  margin: auto; 
+	width: 500px;
+	height: 200px;
+	border: 1px solid green;
+	text-align: center;
+}
+
+
+
+.greenSquare{
+	margin: auto; 
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	background-color: green;
+	text-align: center;
+}
+/* margin: ?? （縦位置ピクセル）　で、横位置autoはセンター*/
+
+
+.blueSquare{
+	margin: auto; 
+	width: 300px;
+	border: 1px solid blue;
+	background-color: blue;
+}
